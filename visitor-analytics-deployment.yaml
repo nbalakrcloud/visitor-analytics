@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: visitor-analytics-deployment
+  labels: 
+    app: visitor-analytics
+    env: dev
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: visitor-analytics
+  template:
+    metadata:
+      labels:
+        app: visitor-analytics
+    spec: 
+      containers:
+      - name: visitor-analytics-container
+        image: nbalakrcloud/visitor-analytics:v1.0
+        ports:
+        - containerPort: 8080 

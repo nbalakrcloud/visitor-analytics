@@ -1,0 +1,16 @@
+mode: set
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:20.38,24.2 1 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:26.46,30.2 1 0
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:32.64,35.2 2 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:36.61,40.32 3 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:40.32,42.3 1 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:43.2,43.32 1 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:46.77,50.34 3 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:50.34,53.3 2 0
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:55.2,55.33 1 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:58.77,69.37 3 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:69.37,71.3 1 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:73.2,75.16 3 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:78.59,82.25 4 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:82.25,84.3 1 1
+github.com/nbalakrcloud/visitor-analytics/internal/analytics/analytics.go:86.2,86.18 1 1

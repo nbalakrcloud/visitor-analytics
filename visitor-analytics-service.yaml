@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: visitor-analytics-service
+spec:
+  selector:
+    matchLabels: 
+      app: visitor-analytics
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30000
