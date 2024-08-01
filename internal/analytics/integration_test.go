@@ -12,7 +12,7 @@ import (
 // Test the /track endpoint
 func TestAnalyticsService_TrackVisitor(t *testing.T) {
 	store := analytics.NewVisitorStore()
-	service := &analytics.AnalyticsService{VisitorStore: store}
+	service := &analytics.AnalyticsService{VisitorStore: *store}
 	router := mux.NewRouter()
 	service.WireUpAnalytics(router)
 

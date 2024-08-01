@@ -33,6 +33,7 @@ func (a *AnalyticsService) WireUpAnalytics(router *mux.Router) {
 	router.HandleFunc("/track", a.VisitorStore.trackVisitor).Methods("GET")
 	router.HandleFunc("/analytics", a.VisitorStore.getAnalytics).Methods("GET")
 }
+
 func (v *VisitorStore) RecordVisitor(url, visitorID string) {
 	v.mu.Lock()
 	defer v.mu.Unlock()
